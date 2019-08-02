@@ -1,6 +1,6 @@
 const { delay1000: delay } = require('./../promessas/delay.js')
 
-const steps = function* ([x0, xf, dx]) {
+const steps = /* async */ function* ([x0, xf, dx]) {
   let x = x0
   while(!(x > xf)) {
     yield delay(x)
@@ -11,8 +11,8 @@ const steps = function* ([x0, xf, dx]) {
 const af = async iteravel => {
   let el = iteravel.next()
   while (!el.done) {
+    console.dir(el)
     const value = await el.value
-    console.dir({ value, done: el.done })
     el = iteravel.next()
   }
 }
