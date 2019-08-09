@@ -1,0 +1,9 @@
+{
+  "site": "github.com/douglascrockford/JSON-js",
+  "texto": [
+    "JSON is a light-weight, language independent, data interchange format.",
+    "JSON became a built-in feature of JavaScript when the ECMAScript Programming Language Standard",
+    "On current browsers, this file does nothing, preferring the built-in JSON object",
+    "There is no reason to use this file unless fate compels you to support IE8, which is something that no one should ever have to do again."
+  ]
+}
