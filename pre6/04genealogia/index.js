@@ -4,11 +4,11 @@ var avo = {
 }
 
 var mae = Object.create(avo)
-mae.nome = "magda valenca",
+mae.nome = "magda valenca"
 mae.valenca = true
 
 var filha = Object.create(mae)
-filha.nome = "sabrina fernandes",
+filha.nome = "sabrina fernandes"
 filha.fernandes = true
 
 
