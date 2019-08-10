@@ -20,9 +20,10 @@ const [
   u2
 ] = vogais
 
+const { nome, velocidade: rpm } = obj
+
 const obj = {
   nome: 'joao',
   velocidade: '30rpm',
 }
 
-const { nome, velocidade: rpm } = obj
